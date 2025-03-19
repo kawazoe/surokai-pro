@@ -1,5 +1,2 @@
-__pycache__
-/.idea
-/output
-.DS_Store
-/venv/
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*

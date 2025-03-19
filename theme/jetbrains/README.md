@@ -1,6 +1,6 @@
-# Monokai Pro for JetBrains
+# Surokai Pro for JetBrains
 
-Download: https://plugins.jetbrains.com/plugin/13643-monokai-pro-theme
+# Download: https://plugins.jetbrains.com/plugin/13643-monokai-pro-theme
 
 ## Build
 
@@ -13,22 +13,22 @@ To build the plugin for IntelliJ, follow these steps:
 
 ## Screenshots
 
-### Monokai Pro:
+### Surokai Pro:
 
-![Monokai Pro](screenshots/monokai-pro.png)
+![Surokai Pro](screenshots/surokai-pro.png)
 
 ### Filter Machine:
 
-![Filter Machine](screenshots/monokai-pro-machine.png)
+![Filter Machine](screenshots/surokai-pro-machine.png)
 
 ### Filter Octagon:
 
-![Filter Octagon](screenshots/monokai-pro-octagon.png)
+![Filter Octagon](screenshots/surokai-pro-octagon.png)
 
 ### Filter Ristretto:
 
-![Filter Ristretto](screenshots/monokai-pro-ristretto.png)
+![Filter Ristretto](screenshots/surokai-pro-ristretto.png)
 
 ### Filter Spectrum:
 
-![Filter Spectrum](screenshots/monokai-pro-spectrum.png)
+![Filter Spectrum](screenshots/surokai-pro-spectrum.png)

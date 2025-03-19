@@ -1,6 +1,6 @@
 <idea-plugin>
-  <id>monokai-pro</id>
-  <name>Monokai Pro Theme</name>
+  <id>surokai-pro</id>
+  <name>Surokai Pro Theme</name>
   <vendor url="https://subtheme.dev">Subtheme</vendor>
   <version>1.10</version>
 
@@ -73,19 +73,19 @@
 
   <description>
   <![CDATA[
-  The unofficial Monokai Pro theme, adapted for JetBrains by <a href="https://subtheme.dev">Subtheme</a>. This plugin includes the default theme, classic theme, and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original designer: <a href="https://monokai.pro">https://monokai.pro</a>.
+  The unofficial Monokai Pro theme, adapted for JetBrains by <a href="https://subtheme.dev">Subtheme</a> and now maintained by <a href="https://github.com/kawazoe/surokai-pro">kawazoe</a>. This plugin includes the default theme, classic theme, and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original designer: <a href="https://monokai.pro">https://monokai.pro</a>.
   <br/><br/>
   An no-italics version is also available. To enable, go to Settings, select Editor/Color Scheme, and choose your preferred Scheme from the dropdown (for example, "Monokai Pro - No Italics").
   <br/><br/>
   Search for <i>Subtheme</i> to find more themes, including <a href="https://plugins.jetbrains.com/plugin/14799-atom-one-theme">Atom One</a>, <a href="https://plugins.jetbrains.com/plugin/14920-solarized-theme">Solarized</a>, and <a href="https://plugins.jetbrains.com/plugin/17418-foundation-theme">Foundation</a>.
   <br/><br/>
-  Contributions are welcome with <a href="https://github.com/subtheme-dev/monokai-pro">GitHub</a>. Screenshots were taken with <a href="https://plugins.jetbrains.com/plugin/10044-atom-material-icons">Atom Material Icons</a> and <a href="https://www.typography.com/fonts/operator/styles">Operator Mono</a>.
+  Contributions are welcome with <a href="https://github.com/kawazoe/surokai-pro">GitHub</a>. Screenshots were taken with <a href="https://plugins.jetbrains.com/plugin/10044-atom-material-icons">Atom Material Icons</a> and <a href="https://www.typography.com/fonts/operator/styles">Operator Mono</a>.
   <br/><br/>
-  <img src="https://raw.githubusercontent.com/subtheme-dev/monokai-pro/master/theme/jetbrains/screenshots/monokai-pro-small.png" border="0" width="360"/><br/>
-  <img src="https://raw.githubusercontent.com/subtheme-dev/monokai-pro/master/theme/jetbrains/screenshots/monokai-pro-machine-small.png" border="0" width="360"/><br/>
-  <img src="https://raw.githubusercontent.com/subtheme-dev/monokai-pro/master/theme/jetbrains/screenshots/monokai-pro-octagon-small.png" border="0" width="360"/><br/>
-  <img src="https://raw.githubusercontent.com/subtheme-dev/monokai-pro/master/theme/jetbrains/screenshots/monokai-pro-ristretto-small.png" border="0" width="360"/><br/>
-  <img src="https://raw.githubusercontent.com/subtheme-dev/monokai-pro/master/theme/jetbrains/screenshots/monokai-pro-spectrum-small.png" border="0" width="360"/><br/>
+  <img src="https://raw.githubusercontent.com/kawazoe/surokai-pro/master/theme/jetbrains/screenshots/monokai-pro-small.png" border="0" width="360"/><br/>
+  <img src="https://raw.githubusercontent.com/kawazoe/surokai-pro/master/theme/jetbrains/screenshots/monokai-pro-machine-small.png" border="0" width="360"/><br/>
+  <img src="https://raw.githubusercontent.com/kawazoe/surokai-pro/master/theme/jetbrains/screenshots/monokai-pro-octagon-small.png" border="0" width="360"/><br/>
+  <img src="https://raw.githubusercontent.com/kawazoe/surokai-pro/master/theme/jetbrains/screenshots/monokai-pro-ristretto-small.png" border="0" width="360"/><br/>
+  <img src="https://raw.githubusercontent.com/kawazoe/surokai-pro/master/theme/jetbrains/screenshots/monokai-pro-spectrum-small.png" border="0" width="360"/><br/>
   ]]>
   </description>
 

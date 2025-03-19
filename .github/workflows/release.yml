@@ -13,7 +13,7 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         python build.py
-        zip -r monokai-pro ./output
+        zip -r surokai-pro ./output
     - id: date
       run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
     - id: create_release
@@ -31,6 +31,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./monokai-pro.zip
-        asset_name: monokai-pro.zip
+        asset_path: ./surokai-pro.zip
+        asset_name: surokai-pro.zip
         asset_content_type: application/zip  
