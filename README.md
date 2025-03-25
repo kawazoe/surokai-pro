@@ -10,10 +10,23 @@ Supported apps:
 - [Lapce](theme/lapce)
 - [Terminal](theme/terminal)
 
+## Building the theme
+
+We recommend running pythong in a virtual environment:
+
+```
+$ python3 -m venv main
+$ source ./main/bin/activate
+```
+
 To build, first install [sublate](https://github.com/espositocode/sublate):
 
-    $ pip install sublate
+```
+$ pip install sublate
+```
 
 Then, run the build script:
 
-    $ ./build.py
+```
+$ ./build.py
+```
