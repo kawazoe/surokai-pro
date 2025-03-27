@@ -90,12 +90,12 @@
   </description>
 
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="1bf66303-7318-44c3-8fae-6c6f0eb3fd53" path="/classic.theme.json"/>
-    <themeProvider id="96c210a3-cc3b-47c2-ba0f-6de6f50c18a3" path="/machine.theme.json"/>
-    <themeProvider id="342c21d9-7947-4ea7-8291-d4fd4e96fa36" path="/octagon.theme.json"/>
-    <themeProvider id="76cc8066-d21c-4e4c-8583-1b3f22e90e8f" path="/ristretto.theme.json"/>
-    <themeProvider id="ddd7798e-8bd6-4aa2-8345-a08190090321" path="/spectrum.theme.json"/>
-    <themeProvider id="b8abb5dc-b0c9-4d20-97f7-ec5cde31cfd7" path="/default.theme.json"/>
+    <themeProvider id="1bf66303-7318-44c3-8fae-6c6f0eb3fd53" path="/theme/classic.theme.json"/>
+    <themeProvider id="96c210a3-cc3b-47c2-ba0f-6de6f50c18a3" path="/theme/machine.theme.json"/>
+    <themeProvider id="342c21d9-7947-4ea7-8291-d4fd4e96fa36" path="/theme/octagon.theme.json"/>
+    <themeProvider id="76cc8066-d21c-4e4c-8583-1b3f22e90e8f" path="/theme/ristretto.theme.json"/>
+    <themeProvider id="ddd7798e-8bd6-4aa2-8345-a08190090321" path="/theme/spectrum.theme.json"/>
+    <themeProvider id="b8abb5dc-b0c9-4d20-97f7-ec5cde31cfd7" path="/theme/default.theme.json"/>
 
     <bundledColorScheme path="/schemes/classic-no-italics"/>
     <bundledColorScheme path="/schemes/machine-no-italics"/>

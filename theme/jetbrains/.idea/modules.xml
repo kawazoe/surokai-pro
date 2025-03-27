@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/surokai-pro-jetbrains.iml" filepath="$PROJECT_DIR$/surokai-pro-jetbrains.iml" />
+      <module fileurl="file://$PROJECT_DIR$/surokai-pro.iml" filepath="$PROJECT_DIR$/surokai-pro.iml" />
     </modules>
   </component>
 </project>

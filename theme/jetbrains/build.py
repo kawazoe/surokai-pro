@@ -3,7 +3,7 @@ import sublate as sub
 print("[+] JetBrains")
 
 sub.mkdir("resources/schemes")
-sub.mkdir("src")
+sub.mkdir("resources/theme")
 
 for theme in sub.data["colors"]:
     # schemes
@@ -15,7 +15,7 @@ for theme in sub.data["colors"]:
     })
 
     # themes
-    sub.render(f"src/{theme['id']}.theme.json", "templates/theme.json", {
+    sub.render(f"resources/theme/{theme['id']}.theme.json", "templates/theme.json", {
         "theme": theme
     })
 
