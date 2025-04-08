@@ -29,11 +29,11 @@ $ pip install sublate
 Finally, run the build script to generate the plugin's files. Make sure it have executable permissions first.
 
 ```
-$ ./build.py
+$ ./compile.py
 ```
 
 From there, you can make edits to the project, and run the build script again to update the plugin. You can use the
-provided run configuration to test your changes.
+provided run configuration to test your changes and recompile template changes.
 
 When you're ready to generate the final plugin package, right click on the module in the project view and select:
 "Prepare Plugin Module For Deployment". The plugin jar file will be exported to the `out` directory.
