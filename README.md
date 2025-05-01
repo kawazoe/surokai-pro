@@ -20,10 +20,10 @@ $ python3 -m venv main
 $ source ./main/bin/activate
 ```
 
-Then install [sublate](https://github.com/espositocode/sublate):
+Then install dependencies:
 
 ```
-$ pip install sublate
+$ pip install -r ./requirements.txt
 ```
 
 Finally, run the build script to generate the plugin's files. Make sure it have executable permissions first.
@@ -42,20 +42,24 @@ When you're ready to generate the final plugin package, right click on the modul
 
 ### Surokai Pro:
 
-![Surokai Pro](screenshots/surokai-pro.png)
+![Surokai Pro](screenshots/surokai-pro-dark-default.png)
 
-### Filter Machine:
+### Grade Deep:
 
-![Filter Machine](screenshots/surokai-pro-machine.png)
+![Grade Deep](screenshots/surokai-pro-dark-deep.png)
 
-### Filter Octagon:
+### Grade Weathered:
 
-![Filter Octagon](screenshots/surokai-pro-octagon.png)
+![Grade Weathered](screenshots/surokai-pro-dark-weathered.png)
 
-### Filter Ristretto:
+### Grade Rustic:
 
-![Filter Ristretto](screenshots/surokai-pro-ristretto.png)
+![Filter Rustic](screenshots/surokai-pro-dark-rustic.png)
 
-### Filter Spectrum:
+### Grade Matrix:
 
-![Filter Spectrum](screenshots/surokai-pro-spectrum.png)
+![Grade Matrix](screenshots/surokai-pro-dark-matrix.png)
+
+### Grade Classic:
+
+![Grade Classic](screenshots/surokai-pro-dark-classic.png)

@@ -1,10 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="test" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+  <configuration default="false" name="test" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" activateToolWindowBeforeRun="false">
     <module name="surokai-pro" />
-    <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea" />
+    <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -ea -Dide.ui.scale=1.25" />
     <option name="PROGRAM_PARAMETERS" value="" />
     <predefined_log_file enabled="true" id="idea.log" />
     <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="compile" run_configuration_type="ShConfigurationType" />
       <option name="Make" enabled="true" />
     </method>
   </configuration>
