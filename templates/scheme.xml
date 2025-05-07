@@ -12,7 +12,7 @@
     <option name="ADDED_LINES_COLOR" value="{{theme.grades.green}}" data-key="green" />
     <option name="ANNOTATIONS_COLOR" value="{{theme.grades.bright2}}" data-key="bright2" />
     <option name="CARET_COLOR" value="{{theme.grades.dimmed1}}" data-key="dimmed1" />
-    <option name="CARET_ROW_COLOR" value="{{theme.grades.dimmed4}}" data-key="dimmed4" />
+    <option name="CARET_ROW_COLOR" value="{{theme.grades.darker4}}" data-key="darker4" />
     <option name="CONSOLE_BACKGROUND_KEY" value="{{theme.grades.darker2}}" data-key="darker2" />
     <option name="DELETED_LINES_COLOR" value="{{theme.grades.red}}" data-key="red" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="#1e2a30" />
@@ -56,7 +56,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="{{theme.grades.darker1}}" data-key="darker1" />
     <option name="SELECTED_INDENT_GUIDE" value="{{theme.grades.blue}}" data-key="blue" />
     <option name="SELECTED_TEARLINE_COLOR" value="{{theme.grades.yellow}}" data-key="yellow" />
-    <option name="SELECTION_BACKGROUND" value="{{theme.grades.background}}" data-key="background" />
+    <option name="SELECTION_BACKGROUND" value="{{theme.grades.darker1}}" data-key="darker1" />
     <option name="SEPARATOR_ABOVE_COLOR" value="{{theme.grades.dimmed4}}" data-key="dimmed4" />
     <option name="SEPARATOR_BELOW_COLOR" value="{{theme.grades.dimmed4}}" data-key="dimmed4" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="{{theme.grades.darker1}}" data-key="darker1" />
