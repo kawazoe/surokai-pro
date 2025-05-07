@@ -11,12 +11,12 @@ colors:
   purple:     "hsl(249.88, 76.58%, 78.24%)"   #ab9df2
 
   # high contrast accent colors
-  darkRed:    "hsl(345.19, 100%, 14.25%)"     #580016
-  darkOrange: "hsl(19.73, 96.13%, 17.25%)"    #602102
-  darkYellow: "hsl(44.71, 100%, 16%)"         #5c4400
-  darkGreen:  "hsl(90, 59.3%, 13.27%)"        #284010
-  darkBlue:   "hsl(186.43, 70.89%, 16.02%)"   #0d484f
-  darkPurple: "hsl(294.45, 37.58%, 16.24%)"   #3d1d40
+  darkRed:    "hsl(345.19, 87%, 13.25%)"      #3e0412
+  darkOrange: "hsl(19.73, 86.13%, 14.25%)"    #421805
+  darkYellow: "hsl(44.71, 80%, 13%)"          #3c2e07
+  darkGreen:  "hsl(90, 39.3%, 13.27%)"        #212e14
+  darkBlue:   "hsl(186.43, 45.89%, 14.02%)"   #143034
+  darkPurple: "hsl(294.45, 32.58%, 15.24%)"   #301a32
 
   # grays from the Monokai Pro theme
   bright2:    "hsl(60, 25%, 98.43%)"          #fcfcfa
