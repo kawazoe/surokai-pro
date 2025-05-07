@@ -137,41 +137,6 @@
       "selectionBackground": "background",
       "selectionForeground": "yellow"
     },
-    "CodeWithMe": {
-      "AccessDisabled": {
-        "accessDot": ""
-      },
-      "Avatar": {
-        "foreground": "",
-        "hover": ""
-      },
-      "Users": {
-        "1": {
-          "Background": "",
-          "Foreground": ""
-        },
-        "2": {
-          "Background": "",
-          "Foreground": ""
-        },
-        "3": {
-          "Background": "",
-          "Foreground": ""
-        },
-        "4": {
-          "Background": "",
-          "Foreground": ""
-        },
-        "5": {
-          "Background": "",
-          "Foreground": ""
-        },
-        "6": {
-          "Background": "",
-          "Foreground": ""
-        }
-      }
-    },
     "ColorChooser": {
       "background": "background",
       "foreground": "normal",
@@ -199,30 +164,21 @@
       "border": "0,0,0,0,000000"
     },
     "CompletionPopup": {
-      "Body": {
-        "insets": ""
-      },
       "Advertiser": {
         "background": "background",
-        "borderInsets": "",
-        "fontSizeOffset": "",
         "foreground": "normal"
+      },
+      "Body": {
+        "insets": "0,0,0,0"
       },
       "foreground": "red",
       "matchForeground": "yellow",
       "selectionInactiveBackground": "background",
-      "selectionBackground": "background",
-      "nonFocusedMask": "",
-      "selectionInnerInsets": ""
+      "selectionBackground": "background"
     },
     "ComplexPopup": {
       "Header": {
-        "background": "dimmed4",
-        "insets": ""
-      },
-      "TextField": {
-        "borderInsets": "",
-        "inputInsets": ""
+        "background": "dimmed4"
       }
     },
     "Component": {
@@ -246,7 +202,7 @@
     },
     "Debugger": {
       "EvaluateExpression": {
-        "background": ""
+        "background": "darker2"
       },
       "Variables": {
         "changedValueForeground": "dimmed2",
@@ -278,15 +234,14 @@
       "areaBackground": "background",
       "areaForeground": "normal",
       "rowBackground": "dimmed3",
-      "borderColor": ""
+      "borderColor": "bright1"
     },
     "Editor": {
       "background": "darker1",
       "foreground": "normal",
       "shortcutForeground": "dimmed2",
       "SearchField": {
-        "background": "darker1",
-        "borderInsets": ""
+        "background": "darker1"
       },
       "Toolbar": {
         "borderColor": "dimmed4"
@@ -309,19 +264,18 @@
       "underlineColor": "yellow",
       "underlinedTabBackground": "dimmed4",
       "underlinedTabForeground": "normal",
-      "tabInsets": "",
       "background": "background",
       "hoverBackground": "darker2",
       "inactiveColoredFileBackground": ""
     },
     "FileColor": {
-      "Blue": "#273e3e",
-      "Gray": "#363636",
-      "Green": "#27321f",
-      "Orange": "#44342a",
-      "Rose": "#4c2936",
-      "Violet": "#2f223b",
-      "Yellow": "#39331e"
+      "Blue": "darkBlue",
+      "Gray": "darker1",
+      "Green": "darkGreen",
+      "Orange": "darkOrange",
+      "Rose": "darkRed",
+      "Violet": "darkPurple",
+      "Yellow": "darkYellow"
     },
     "FormattedTextField": {
       "background": "dimmed4",
@@ -356,9 +310,7 @@
       "warningBackground": "yellow",
       "successBackground": "green",
       "borderWidth": 1,
-      "dotRadius": 5,
-      "dotX": "",
-      "dotY": ""
+      "dotRadius": 5
     },
     "InformationHint": {
       "borderColor": "background"
@@ -392,9 +344,7 @@
     "List": {
       "Button": {
         "hoverBackground": "",
-        "leftRightInset": "",
-        "separatorColor": "",
-        "separatorInset": ""
+        "separatorColor": ""
       },
       "Tag": {
         "background": "",
@@ -467,9 +417,9 @@
       "borderColor": "dimmed3",
       "borderInsets": "",
       "contentActionsInset": "",
-      "errorBackground": "red",
-      "errorBorderColor": "darkRed",
-      "errorForeground": "darker2",
+      "errorBackground": "darkRed",
+      "errorBorderColor": "dimmed4",
+      "errorForeground": "normal",
       "Button": {
         "background": "",
         "borderColor": "",
@@ -1056,13 +1006,13 @@
   },
   "icons": {
     "ColorPalette": {
-      "Actions.Blue": "",
-      "Actions.Green": "",
-      "Actions.Grey": "",
-      "Actions.GreyInline": "",
-      "Actions.GreyInline.Dark": "",
-      "Actions.Red": "",
-      "Actions.Yellow": "",
+      "Actions.Blue": "blue",
+      "Actions.Green": "green",
+      "Actions.Grey": "normal",
+      "Actions.GreyInline": "normal",
+      "Actions.GreyInline.Dark": "dimmed2",
+      "Actions.Red": "red",
+      "Actions.Yellow": "yellow",
       "Checkbox.Background.Default.Dark": "background",
       "Checkbox.Background.Disabled.Dark": "darker1",
       "Checkbox.Background.Selected.Dark": "background",
