@@ -22,7 +22,7 @@
   <p>Search for <i>Subtheme</i> on the jetbrains marketplace to find more classic adaptation of themes like this one, including <a href="https://plugins.jetbrains.com/plugin/14799-atom-one-theme">Atom One</a>, <a href="https://plugins.jetbrains.com/plugin/14920-solarized-theme">Solarized</a>, and <a href="https://plugins.jetbrains.com/plugin/17418-foundation-theme">Foundation</a>.</p>
   <p>Contributions are welcome at <a href="https://github.com/kawazoe/surokai-pro">GitHub</a>.</p>
   <br/>
-  <img src="https://raw.githubusercontent.com/kawazoe/surokai-pro/master/screenshots/surokai-pro-dark-default-small.png" border="0" width="360"/><br/>
+  <img src="https://raw.githubusercontent.com/kawazoe/surokai-pro/master/screenshots/surokai-pro-dark-dark-small.png" border="0" width="360"/><br/>
   <img src="https://raw.githubusercontent.com/kawazoe/surokai-pro/master/screenshots/surokai-pro-dark-deep-small.png" border="0" width="360"/><br/>
   <img src="https://raw.githubusercontent.com/kawazoe/surokai-pro/master/screenshots/surokai-pro-dark-weathered-small.png" border="0" width="360"/><br/>
   <img src="https://raw.githubusercontent.com/kawazoe/surokai-pro/master/screenshots/surokai-pro-dark-rustic-small.png" border="0" width="360"/><br/>
@@ -32,7 +32,7 @@
   </description>
 
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="467b359c-ccf5-40bb-b017-1ffbe84d761a" path="/theme/surokai-dark-default.theme.json"/>
+    <themeProvider id="467b359c-ccf5-40bb-b017-1ffbe84d761a" path="/theme/surokai-dark-dark.theme.json"/>
     <themeProvider id="3eb0a757-e828-4036-b3af-d586aaee0906" path="/theme/surokai-dark-deep.theme.json"/>
     <themeProvider id="a667c6c0-4327-48bb-afeb-8e1bd87e9701" path="/theme/surokai-dark-weathered.theme.json"/>
     <themeProvider id="bb0ca7de-6659-4dba-99f9-a91330afe370" path="/theme/surokai-dark-rustic.theme.json"/>

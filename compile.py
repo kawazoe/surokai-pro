@@ -49,21 +49,20 @@ def readTheme(path):
     }
 
 # data
-themes = {
+shades = {
     "dark": readTheme("./themes/dark.yaml"),
-    # "light": readTheme("./themes/light.yaml")
+    "light": readTheme("./themes/light.yaml")
 }
 
 grades = {
-    # "default": {
-    "default": {
+    "dark": {
         "name": "",
-        "shade": ident(),
+        "shade": shades["dark"],
         "tweaks": {}
     },
     "deep": {
         "name": "Deep",
-        "shade": ident(),
+        "shade": shades["dark"],
         "tweaks": {
             # accents
             "red":        flow(blend(colors.HslColor.parse("hsl(130, 48%, 66.0%)"), 0.1), scale(0, 0)),
@@ -99,7 +98,7 @@ grades = {
     },
     "weathered": {
         "name": "Weathered",
-        "shade": ident(),
+        "shade": shades["dark"],
         "tweaks": {
             # accents
             "red":        flow(blend(colors.HslColor.parse("hsl(66, 64%, 38.0%)"), 0.1), scale(0.1, 0)),
@@ -135,7 +134,7 @@ grades = {
     },
     "rustic": {
         "name": "Rustic",
-        "shade": ident(),
+        "shade": shades["dark"],
         "tweaks": {
             # accents
             "red":        flow(blend(colors.HslColor.parse("hsl(10, 48%, 66.0%)"), 0.18), scale(0, 0)),
@@ -171,7 +170,7 @@ grades = {
     },
     "matrix": {
         "name": "Matrix",
-        "shade": ident(),
+        "shade": shades["dark"],
         "tweaks": {
             # accents
             "red":        flow(blend(colors.HslColor.parse("hsl(165, 84%, 48.0%)"), 0.1), scale(0.1, 0)),
@@ -207,7 +206,7 @@ grades = {
     },
     "classic": {
         "name": "Classic",
-        "shade": ident(),
+        "shade": shades["dark"],
         "tweaks": {
             # accents
             "red":        flow(blend(colors.HslColor.parse("hsl(0, 82%, 64.0%)"), 0.14), scale(-0.05, -0.1)),
@@ -240,28 +239,35 @@ grades = {
             "darker4":    flow(scale(-0.5, 0), blend(colors.HslColor.parse("hsl(80, 21%, 5.5%)"), 0.4)),
             "black":      flow(scale(-0.5, 0), blend(colors.HslColor.parse("hsl(75, 23%, 3.6%)"), 0.4))
         }
+    },
+    "light": {
+        "name": "",
+        "shade": shades["light"],
+        "tweaks": { }
+    },
+    "sun": {
+        "name": "Sun",
+        "shade": shades["light"],
+        "tweaks": { }
     }
-    # },
-    # "light": {
-        # "sun": readGrade("./grades/sun.yaml")
-    # }
 }
 
 colors = {
-    "%s-%s" % (tk, gk): {
-        "id": "surokai-%s-%s" % (tk, gk),
-        "name": "%s (%s grade)" % (theme["name"], grade["name"]) if grade["name"] else theme["name"],
+    "%s-%s" % (grade["shade"]["id"], gk): {
+        "id": "%s-%s" % (grade["shade"]["id"], gk),
+        "name": "%s (%s grade)" % (grade["shade"]["name"], grade["name"]) if grade["name"] else grade["shade"]["name"],
+        "dark": grade["shade"]["dark"],
         "sources": {
-            tc: color.formatHex() for tc, color in theme["colors"].items()
+            tc: color.formatHex() for tc, color in grade["shade"]["colors"].items()
         },
         "grades": {
             tc: (
-                grade["tweaks"][tc](grade["shade"](color)).formatHex()
+                grade["tweaks"][tc](color).formatHex()
                 if tc in grade["tweaks"]
-                else grade["shade"](color).formatHex()
-            ) for tc, color in theme["colors"].items()
+                else color.formatHex()
+            ) for tc, color in grade["shade"]["colors"].items()
         }
-    } for tk, theme in themes.items() for gk, grade in grades.items()
+    } for gk, grade in grades.items()
 }
 
 jinjaEnv = jinja2.Environment(loader=jinja2.FileSystemLoader("templates"))
@@ -294,7 +300,7 @@ for theme in colors.values():
 
     # themes
     render(f"resources/theme/{theme['id']}.theme.json", "theme.json", {
-        "theme": theme
+        "theme": theme, "dark": theme["dark"]
     })
 
 print("Done")

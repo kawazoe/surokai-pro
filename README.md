@@ -42,7 +42,7 @@ When you're ready to generate the final plugin package, right click on the modul
 
 ### Surokai Pro:
 
-![Surokai Pro](screenshots/surokai-pro-dark-default.png)
+![Surokai Pro](screenshots/surokai-pro-dark-dark.png)
 
 ### Grade Deep:
 

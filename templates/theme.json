@@ -1,6 +1,5 @@
 {
   "name": "{{theme.name}}",
-  "dark": true,
   "author": "Subtheme",
   "editorScheme": "/schemes/{{theme.id}}.xml",
   "colors": {
@@ -1087,5 +1086,7 @@
       "Objects.YellowDark": "darkYellow",
       "Tree.iconColor": "dimmed1"
     }
-  }
+  },
+
+  "dark": {% if theme.dark %}true{% else %}false{% endif %}
 }

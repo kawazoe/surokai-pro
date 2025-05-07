@@ -1,5 +1,6 @@
 id: "surokai-dark"
 name: Surokai
+dark: true
 
 colors:
   # accent colors from the Monokai Pro theme
