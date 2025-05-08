@@ -8,6 +8,12 @@
   <idea-version since-build="191.0"/>
 
   <change-notes><![CDATA[
+    <h3>0.1.2</h3>
+    <ul>
+      <li>Improve text contrast for active line and selection.</li>
+      <li>Fix debugger's execution point accent color and contrast.</li>
+    </ul>
+
     <h3>0.1.1</h3>
     <p>Ensure all colors come from the palette.</p>
 
