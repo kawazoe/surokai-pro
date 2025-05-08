@@ -792,7 +792,7 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="{{theme.grades.green}}" data-key="green" />
+        <option name="BACKGROUND" value="{{theme.grades.darkYellow}}" data-key="darkYellow" />
       </value>
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
