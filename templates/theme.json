@@ -624,10 +624,10 @@
     "RunWidget": {
       "background": "darkBlue",
       "foreground": "bright1",
-      "hoverBackground": "dimmed4",
-      "separatorColor": "blue",
+      "hoverBackground": "dimmed3",
+      "separatorColor": "dimmed3",
       "pressedBackground": "dimmed4",
-      "runningBackground": "darkGreen"
+      "runningBackground": "green"
     },
     "ScrollBar": {
       "background": "",
